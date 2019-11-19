@@ -1,4 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_example_1/pages/login.dart';
+import 'models/User.dart';
 import 'pages/accounts.dart';
 
 void main() => runApp(App());
@@ -8,7 +11,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       title: 'Bigging App',
-      home: AccountsPage()
+      home: Login()
     );
   }
 }
